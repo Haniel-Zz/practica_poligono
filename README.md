@@ -69,7 +69,8 @@ Scripting
 ---
 
 ### Paso 2: Crear un nuevo script
-<img width="416" height="706" alt="resultado (2)" src="https://github.com/user-attachments/assets/07f3aad7-9574-41a0-a38e-3199d586046e" />
+
+<img width="750" height="716" alt="script" src="https://github.com/user-attachments/assets/b38fbb78-59d8-44c6-b0f1-7a80f401337a" />
 
 ---
 
@@ -104,3 +105,5 @@ bpy.ops.object.select_all(action='SELECT')
 bpy.ops.object.delete()
 
 crear_poligono_2d("Poligono2D", lados=6, radio=5)
+#Resultados:
+<img width="408" height="242" alt="resultado" src="https://github.com/user-attachments/assets/c40ac146-8b75-4ed5-bee6-0e042c7f0f9b" />
