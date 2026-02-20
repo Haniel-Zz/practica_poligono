@@ -1,40 +1,54 @@
-# 🧩 Práctica: Dibujo de un Polígono en Blender con Python
+<h1 align="center">Practica: Dibujo de un Poligono en Blender con Python</h1>
 
-## 📌 Descripción
+<p align="center">
+Creacion de un poligono 2D utilizando scripting en Blender
+</p>
 
-Esta práctica muestra cómo crear un polígono de *n lados* utilizando Python dentro de Blender.
+---
+
+## Descripcion
+
+Esta practica muestra como generar un poligono regular dentro de Blender usando Python.
 
 El script permite:
 
 - Crear una malla nueva  
-- Generar vértices usando coordenadas polares  
-- Conectar los vértices para formar el polígono  
-- Dibujar automáticamente la figura en 2D  
+- Generar vertices mediante trigonometria  
+- Conectar los puntos automaticamente  
+- Formar un poligono 2D  
 
 ---
 
-## ⚙️ Requisitos
+## Resultado
+
+<p align="center">
+<img src="imagenes/resultado.png" width="400">
+</p>
+
+---
+
+## Requisitos
 
 - Blender 5.0 o superior
 - Editor de scripting activado
 
 ---
 
-## ▶️ Pasos para realizar la práctica
+## Procedimiento
 
 ### 1. Abrir Blender
 
-Ir a:
+Ir al modulo:
 
 Scripting
 
 ---
 
-### 2. Crear un nuevo Script
+### 2. Crear nuevo script
 
 ---
 
-### 3. Copiar el siguiente código
+### 3. Copiar el codigo
 
 ```python
 import bpy
