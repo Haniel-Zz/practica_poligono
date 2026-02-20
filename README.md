@@ -5,7 +5,7 @@ Uso de scripting en Blender para la generacion automatica de figuras geometricas
 </p>
 
 ---
-imagenes/resultado.png
+
 ## Introduccion
 
 Blender permite automatizar la creacion de objetos mediante el uso de Python.  
