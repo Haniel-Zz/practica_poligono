@@ -69,6 +69,7 @@ Scripting
 ---
 
 ### Paso 2: Crear un nuevo script
+<img width="416" height="706" alt="resultado (2)" src="https://github.com/user-attachments/assets/07f3aad7-9574-41a0-a38e-3199d586046e" />
 
 ---
 
