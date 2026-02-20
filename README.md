@@ -1,29 +1,53 @@
-<h1 align="center">Practica: Dibujo de un Poligono en Blender con Python</h1>
+<h1 align="center">Practica: Creacion de un Poligono 2D en Blender mediante Python</h1>
 
 <p align="center">
-Creacion de un poligono 2D utilizando scripting en Blender
+Uso de scripting en Blender para la generacion automatica de figuras geometricas
 </p>
 
 ---
 
-## Descripcion
+## Introduccion
 
-Esta practica muestra como generar un poligono regular dentro de Blender usando Python.
+Blender permite automatizar la creacion de objetos mediante el uso de Python.  
+En esta practica se desarrolla un script que genera un poligono regular en 2D utilizando calculos matematicos basados en coordenadas polares.
 
-El script permite:
+El objetivo es comprender como:
 
-- Crear una malla nueva  
-- Generar vertices mediante trigonometria  
-- Conectar los puntos automaticamente  
-- Formar un poligono 2D  
+- Crear objetos mediante codigo
+- Generar vertices de forma automatica
+- Aplicar trigonometria en graficos
+- Construir figuras geometricas sin modelado manual
 
 ---
 
-## Resultado
+## Descripcion del problema
 
-<p align="center">
-<img src="imagenes/resultado.png" width="400">
-</p>
+Se requiere crear un poligono regular sin usar herramientas de modelado manual, utilizando un algoritmo que:
+
+1. Calcule la posicion de cada vertice
+2. Genere la malla del objeto
+3. Conecte los vertices mediante aristas
+4. Dibuje el poligono dentro de la escena
+
+---
+
+## Fundamento teorico
+
+Un poligono regular puede generarse distribuyendo sus vertices sobre una circunferencia.
+
+Cada vertice se obtiene con:
+
+x = r * cos(angulo)  
+y = r * sin(angulo)
+
+Donde:
+
+- r es el radio
+- angulo = (2π * i) / n
+- n es el numero de lados
+- i es la posicion del vertice
+
+Esto permite ubicar puntos equidistantes formando la figura.
 
 ---
 
@@ -36,19 +60,19 @@ El script permite:
 
 ## Procedimiento
 
-### 1. Abrir Blender
+### Paso 1: Abrir Blender
 
-Ir al modulo:
+Seleccionar el espacio de trabajo:
 
 Scripting
 
 ---
 
-### 2. Crear nuevo script
+### Paso 2: Crear un nuevo script
 
 ---
 
-### 3. Copiar el codigo
+### Paso 3: Insertar el siguiente codigo
 
 ```python
 import bpy
